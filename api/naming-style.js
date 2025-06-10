@@ -2,11 +2,8 @@ export default async function handler(req, res) {
   const { region, decade, sex, country } = req.query;
 
   try {
-    const baseUrl = process.env.VERCEL_URL
-      ? `https://${process.env.VERCEL_URL}`
-      : 'http://localhost:3000';
-
-    const response = await fetch(`${baseUrl}/naming_style.json`);
+    // ★ 相対パスに変更 → Vercelで安定動作
+    const response = await fetch('https://naming-style-api.vercel.app/naming_style.json');
     if (!response.ok) throw new Error('Failed to fetch JSON');
     const data = await response.json();
 
