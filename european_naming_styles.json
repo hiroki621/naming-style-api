@@ -1,0 +1,135 @@
+{
+  "europe": {
+    "united_kingdom": {
+      "language_preferences": [
+        "English",
+        "Irish Gaelic"
+      ],
+      "phonetic_features": {
+        "preferred_endings": [
+          "er",
+          "on",
+          "an",
+          "y",
+          "ie"
+        ],
+        "avoid_endings": []
+      },
+      "semantic_themes": [
+        "royalty",
+        "valor",
+        "heritage",
+        "nature",
+        "location-based"
+      ],
+      "structural_preferences": {
+        "word_count": "1 or 2 words",
+        "compound_form": false,
+        "name_types": [
+          "surname",
+          "title",
+          "place_name",
+          "abstract_concept"
+        ]
+      },
+      "notes": "UK horse names often draw from British aristocracy, nature, or historical references. One- or two-word structures are common, often with personal or geographic connections."
+    },
+    "france": {
+      "language_preferences": [
+        "French",
+        "Latin",
+        "Italian"
+      ],
+      "phonetic_features": {
+        "preferred_endings": [
+          "e",
+          "ette",
+          "el",
+          "eur",
+          "on"
+        ],
+        "avoid_endings": []
+      },
+      "semantic_themes": [
+        "elegance",
+        "art",
+        "mythology",
+        "romanticism"
+      ],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": [
+          "foreign_word",
+          "abstract_concept",
+          "literary_term"
+        ]
+      },
+      "notes": "French horse names tend to be refined and poetic, often referencing mythology, art, or elegant traits. Many names are evocative, with lyrical qualities."
+    },
+    "ireland": {
+      "language_preferences": [
+        "Irish Gaelic",
+        "English"
+      ],
+      "phonetic_features": {
+        "preferred_endings": [
+          "in",
+          "an",
+          "agh",
+          "ey",
+          "en"
+        ],
+        "avoid_endings": []
+      },
+      "semantic_themes": [
+        "heritage",
+        "rural beauty",
+        "folklore",
+        "family lineage"
+      ],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": [
+          "native_word",
+          "surname",
+          "myth_reference"
+        ]
+      },
+      "notes": "Irish names often celebrate Celtic heritage, family surnames, or folklore. Gaelic terms and poetic words are common."
+    },
+    "germany": {
+      "language_preferences": [
+        "German",
+        "Latin"
+      ],
+      "phonetic_features": {
+        "preferred_endings": [
+          "us",
+          "a",
+          "ia",
+          "in",
+          "er"
+        ],
+        "avoid_endings": []
+      },
+      "semantic_themes": [
+        "nobility",
+        "strength",
+        "tradition",
+        "myth"
+      ],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": [
+          "foreign_word",
+          "abstract_concept",
+          "family_reference"
+        ]
+      },
+      "notes": "German horse names are often strong and dignified, with historical or classical overtones. Latin influence is notable in high-performing bloodlines."
+    }
+  }
+}

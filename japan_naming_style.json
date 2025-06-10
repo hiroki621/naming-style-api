@@ -1,0 +1,195 @@
+{
+  "japan": {
+    "1970s": {
+      "male": {
+        "average_length": 6.96,
+        "language_preferences": [
+          "Japanese"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "o",
+            "i",
+            "u"
+          ],
+          "avoid_endings": []
+        },
+        "semantic_themes": [
+          "simplicity",
+          "strength",
+          "tradition"
+        ],
+        "structural_preferences": {
+          "word_count": "1 word",
+          "compound_form": false,
+          "name_types": [
+            "native_word",
+            "surname"
+          ]
+        },
+        "notes": "Simple native names with traditional sound. Frequent use of Japanese surnames or geographical references."
+      },
+      "female": {
+        "average_length": 6.79,
+        "language_preferences": [
+          "Japanese"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "ko",
+            "mi",
+            "na"
+          ],
+          "avoid_endings": []
+        },
+        "semantic_themes": [
+          "elegance",
+          "nature"
+        ],
+        "structural_preferences": {
+          "word_count": "1 word",
+          "compound_form": false,
+          "name_types": [
+            "native_word"
+          ]
+        },
+        "notes": "Simple, elegant Japanese names, often floral or natural in theme."
+      }
+    },
+    "1990s": {
+      "male": {
+        "average_length": 7.69,
+        "language_preferences": [
+          "English"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "t",
+            "s"
+          ],
+          "avoid_endings": [
+            "a"
+          ]
+        },
+        "semantic_themes": [
+          "power",
+          "prestige",
+          "epic imagery"
+        ],
+        "structural_preferences": {
+          "word_count": "2 words",
+          "compound_form": true,
+          "name_types": [
+            "foreign_phrase",
+            "abstract_concept"
+          ]
+        },
+        "notes": "Complex, often epic-sounding names with foreign influences. Prepositional phrases popular (e.g., 'In the', 'Of the')."
+      },
+      "female": {
+        "average_length": 7.3,
+        "language_preferences": [
+          "English",
+          "French"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "a",
+            "e"
+          ],
+          "avoid_endings": []
+        },
+        "semantic_themes": [
+          "beauty",
+          "elegance",
+          "refinement"
+        ],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": false,
+          "name_types": [
+            "foreign_word",
+            "natural_object"
+          ]
+        },
+        "notes": "More international in tone, often refined and feminine. Some overlap with colt naming style but softer sound preferred."
+      }
+    },
+    "2010s": {
+      "male": {
+        "average_length": 7.09,
+        "language_preferences": [
+          "English",
+          "Japanese"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "o",
+            "s",
+            "n"
+          ],
+          "avoid_endings": [
+            "a"
+          ]
+        },
+        "semantic_themes": [
+          "dignity",
+          "legacy",
+          "strength"
+        ],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": true,
+          "name_types": [
+            "foreign_word",
+            "mixed_compound"
+          ]
+        },
+        "notes": "Strong, hybrid names with stable or family-related prefix. Emphasis on individuality and international recognition."
+      },
+      "female": {
+        "average_length": 7.12,
+        "language_preferences": [
+          "French",
+          "Italian",
+          "English"
+        ],
+        "phonetic_features": {
+          "preferred_endings": [
+            "a",
+            "ia",
+            "ina",
+            "ille",
+            "ie",
+            "eux"
+          ],
+          "avoid_endings": [
+            "t",
+            "s",
+            "x",
+            "m"
+          ]
+        },
+        "semantic_themes": [
+          "beauty",
+          "grace",
+          "flowers",
+          "jewels",
+          "romantic love",
+          "queenship",
+          "elegance"
+        ],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": false,
+          "name_types": [
+            "foreign_word",
+            "natural_object",
+            "abstract_concept"
+          ]
+        },
+        "notes": "Feminine, elegant, and poetic names with international flavor. Preference for soft sounds and graceful imagery."
+      }
+    }
+  }
+}
