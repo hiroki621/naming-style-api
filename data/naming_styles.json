@@ -1,0 +1,181 @@
+{
+  "japan": {
+    "1970s": {
+      "male": {
+        "average_length": 6.96,
+        "language_preferences": ["Japanese"],
+        "phonetic_features": {
+          "preferred_endings": ["o", "i", "u"],
+          "avoid_endings": []
+        },
+        "semantic_themes": ["simplicity", "strength", "tradition"],
+        "structural_preferences": {
+          "word_count": "1 word",
+          "compound_form": false,
+          "name_types": ["native_word", "surname"]
+        },
+        "notes": "Simple native names with traditional sound. Frequent use of Japanese surnames or geographical references."
+      },
+      "female": {
+        "average_length": 6.79,
+        "language_preferences": ["Japanese"],
+        "phonetic_features": {
+          "preferred_endings": ["ko", "mi", "na"],
+          "avoid_endings": []
+        },
+        "semantic_themes": ["elegance", "nature"],
+        "structural_preferences": {
+          "word_count": "1 word",
+          "compound_form": false,
+          "name_types": ["native_word"]
+        },
+        "notes": "Simple, elegant Japanese names, often floral or natural in theme."
+      }
+    },
+    "1990s": {
+      "male": {
+        "average_length": 7.69,
+        "language_preferences": ["English"],
+        "phonetic_features": {
+          "preferred_endings": ["t", "s"],
+          "avoid_endings": ["a"]
+        },
+        "semantic_themes": ["power", "prestige", "epic imagery"],
+        "structural_preferences": {
+          "word_count": "2 words",
+          "compound_form": true,
+          "name_types": ["foreign_phrase", "abstract_concept"]
+        },
+        "notes": "Complex, often epic-sounding names with foreign influences. Prepositional phrases popular (e.g., 'In the', 'Of the')."
+      },
+      "female": {
+        "average_length": 7.3,
+        "language_preferences": ["English", "French"],
+        "phonetic_features": {
+          "preferred_endings": ["a", "e"],
+          "avoid_endings": []
+        },
+        "semantic_themes": ["beauty", "elegance", "refinement"],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": false,
+          "name_types": ["foreign_word", "natural_object"]
+        },
+        "notes": "More international in tone, often refined and feminine. Some overlap with colt naming style but softer sound preferred."
+      }
+    },
+    "2010s": {
+      "male": {
+        "average_length": 7.09,
+        "language_preferences": ["English", "Japanese"],
+        "phonetic_features": {
+          "preferred_endings": ["o", "s", "n"],
+          "avoid_endings": ["a"]
+        },
+        "semantic_themes": ["dignity", "legacy", "strength"],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": true,
+          "name_types": ["foreign_word", "mixed_compound"]
+        },
+        "notes": "Strong, hybrid names with stable or family-related prefix. Emphasis on individuality and international recognition."
+      },
+      "female": {
+        "average_length": 7.12,
+        "language_preferences": ["French", "Italian", "English"],
+        "phonetic_features": {
+          "preferred_endings": ["a", "ia", "ina", "ille", "ie", "eux"],
+          "avoid_endings": ["t", "s", "x", "m"]
+        },
+        "semantic_themes": ["beauty", "grace", "flowers", "jewels", "romantic love", "queenship", "elegance"],
+        "structural_preferences": {
+          "word_count": "1 or 2 words",
+          "compound_form": false,
+          "name_types": ["foreign_word", "natural_object", "abstract_concept"]
+        },
+        "notes": "Feminine, elegant, and poetic names with international flavor. Preference for soft sounds and graceful imagery."
+      }
+    }
+  },
+  "usa": {
+    "general": {
+      "average_length": 6.8,
+      "language_preferences": ["English"],
+      "phonetic_features": {
+        "preferred_endings": ["r", "n", "a", "y"],
+        "avoid_endings": ["o", "x"]
+      },
+      "semantic_themes": ["abstract_virtue", "power", "speed", "legacy", "nature"],
+      "structural_preferences": {
+        "word_count": "1 or 2 words",
+        "compound_form": false,
+        "name_types": ["abstract_noun", "virtue_term", "family_reference", "phrase_fragment"]
+      },
+      "naming_conventions": {
+        "father_name_relation": "frequent (sound or syllable echo)",
+        "mother_name_relation": "occasional (more in fillies)",
+        "family_branding": "rare (no consistent prefixes)"
+      },
+      "notes": "Stable naming style over decades; focus on memorability, clarity, and symbolic strength. Less creative freedom than Japan or France due to stricter Jockey Club rules."
+    }
+  },
+  "europe": {
+    "united_kingdom": {
+      "language_preferences": ["English", "Irish Gaelic"],
+      "phonetic_features": {
+        "preferred_endings": ["er", "on", "an", "y", "ie"],
+        "avoid_endings": []
+      },
+      "semantic_themes": ["royalty", "valor", "heritage", "nature", "location-based"],
+      "structural_preferences": {
+        "word_count": "1 or 2 words",
+        "compound_form": false,
+        "name_types": ["surname", "title", "place_name", "abstract_concept"]
+      },
+      "notes": "UK horse names often draw from British aristocracy, nature, or historical references. One- or two-word structures are common, often with personal or geographic connections."
+    },
+    "france": {
+      "language_preferences": ["French", "Latin", "Italian"],
+      "phonetic_features": {
+        "preferred_endings": ["e", "ette", "el", "eur", "on"],
+        "avoid_endings": []
+      },
+      "semantic_themes": ["elegance", "art", "mythology", "romanticism"],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": ["foreign_word", "abstract_concept", "literary_term"]
+      },
+      "notes": "French horse names tend to be refined and poetic, often referencing mythology, art, or elegant traits. Many names are evocative, with lyrical qualities."
+    },
+    "ireland": {
+      "language_preferences": ["Irish Gaelic", "English"],
+      "phonetic_features": {
+        "preferred_endings": ["in", "an", "agh", "ey", "en"],
+        "avoid_endings": []
+      },
+      "semantic_themes": ["heritage", "rural beauty", "folklore", "family lineage"],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": ["native_word", "surname", "myth_reference"]
+      },
+      "notes": "Irish names often celebrate Celtic heritage, family surnames, or folklore. Gaelic terms and poetic words are common."
+    },
+    "germany": {
+      "language_preferences": ["German", "Latin"],
+      "phonetic_features": {
+        "preferred_endings": ["us", "a", "ia", "in", "er"],
+        "avoid_endings": []
+      },
+      "semantic_themes": ["nobility", "strength", "tradition", "myth"],
+      "structural_preferences": {
+        "word_count": "1 word",
+        "compound_form": false,
+        "name_types": ["foreign_word", "abstract_concept", "family_reference"]
+      },
+      "notes": "German horse names are often strong and dignified, with historical or classical overtones. Latin influence is notable in high-performing bloodlines."
+    }
+  }
+}
+
