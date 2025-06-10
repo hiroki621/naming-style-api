@@ -1,32 +1,25 @@
-const express = require('express');
-const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
-
+const express = require("express");
 const app = express();
-app.use(cors());
+const fs = require("fs");
+const path = require("path");
 
-const PORT = process.env.PORT || 3000;
-
-// JSONファイルの読み込みエンドポイント（例：/api/style/japan/2010s/female）
-app.get('/api/style/:region/:decade/:sex', (req, res) => {
+app.get("/api/:region/:decade/:sex", (req, res) => {
   const { region, decade, sex } = req.params;
+  const filePath = path.join(__dirname, "data", `${region}_naming_style.json`);
 
-  const filePath = path.join(__dirname, `${region}_naming_style.json`);
   if (!fs.existsSync(filePath)) {
-    return res.status(404).json({ error: 'Region not found' });
+    return res.status(404).json({ error: "Region not found" });
   }
 
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  const result = jsonData?.[region]?.[decade]?.[sex];
 
-  const style = data?.[region]?.[decade]?.[sex];
-  if (!style) {
-    return res.status(404).json({ error: 'Style not found' });
+  if (!result) {
+    return res.status(404).json({ error: "No data for that combination" });
   }
 
-  res.json(style);
+  res.json(result);
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+// Vercel向けエクスポート
+module.exports = app;
