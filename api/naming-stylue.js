@@ -5,7 +5,7 @@ export default function handler(req, res) {
   const { region, decade, sex, country } = req.query;
 
   const filePath = path.join(process.cwd(), 'data', 'naming_style.json');
-  const raw = readFileSync(filePath);
+  const raw = readFileSync(filePath, 'utf-8');
   const data = JSON.parse(raw);
 
   try {
@@ -21,12 +21,11 @@ export default function handler(req, res) {
         : res.status(404).json({ error: 'Country not found in Europe' });
     }
 
-    // Default: Japanなどの構造
-    const style = data[region]?.[decade]?.[sex];
-    if (!style) return res.status(404).json({ error: 'Style not found' });
+    const result = data[region]?.[decade]?.[sex];
+    if (!result) return res.status(404).json({ error: 'Style not found' });
 
-    return res.status(200).json(style);
+    return res.status(200).json(result);
   } catch (e) {
-    return res.status(500).json({ error: 'Server Error', details: e.message });
+    return res.status(500).json({ error: 'Server Error', message: e.message });
   }
 }
